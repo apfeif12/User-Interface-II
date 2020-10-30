@@ -1,0 +1,187 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+*{
+    box-sizing:border-box;
+    max-width: 100%;
+    /*border: 1px solid grey;*/
+}
+
+/* General styling */
+body{
+    font-family: 'bebas neue', monospace ;
+    background-color:black
+}
+
+header{
+    background-color: black;
+}
+h1{
+    font-family: 'anton', monospace ;
+    display:flex;
+    width: 40%;
+    font-size: 70px;
+    margin-left: 10%;
+    color: white;
+    background-color: black;
+}
+
+nav{
+    font-size:18px;
+    display:flex;
+    flex-direction: row;
+    width: 40%;
+    padding: 1% 0;
+    margin-left:12%;
+    background-color: black;
+    font-family: 'bebas neue', monospace
+    
+}
+
+a{
+    border:1px solid black;
+    padding:2%;
+    text-decoration: none;
+    color: white;
+    
+}
+
+h2{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    color:white
+    
+
+}
+
+
+section{
+    width: 100%;
+    text-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 30px;
+    color:white
+    
+}
+
+#meinspace{
+    height: 60vh;
+    display:flex;
+    margin-right:5%
+    
+    
+}
+button{
+    color: white;
+    background: black;
+    border:1px solid white;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    margin-bottom:5%;
+    margin-top: 5%;
+    width:100px;
+}
+
+.gallery{
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
+    justify-content: space-around;
+    padding: 5%;
+    flex-direction: row;
+    
+   
+    
+
+
+}
+
+
+.gallery div img{
+    width:60vw;
+    height: 40vh;
+    border:1px solid white;
+    
+
+}
+
+.gallery div{
+    width:20%;
+    margin: 2%;
+}
+
+h4{
+    font-size: 40px;
+    text-align: center;
+    color:white
+}
+
+.contactme{
+    font-size: 20px;
+    text-align: center;
+    color:white;
+    display:flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contactbutton{
+    font-size: 25px;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: 1px solid white;
+    width: 20%;
+    display:inline-block;
+    
+    
+}
+
